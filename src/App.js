@@ -1,4 +1,5 @@
 import './App.css';
+import Career from './Career';
 import Contact from './Contact';
 import Home from './Home';
 
@@ -11,7 +12,9 @@ function App() {
       <div id='app-container'>
         
         <Home/>
+        <Career/>
         <Contact/>
+        
 
       </div>
 

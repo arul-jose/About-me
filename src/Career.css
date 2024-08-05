@@ -1,0 +1,33 @@
+#career > section>#career-timeline-container > #qspider-box{
+    background-color: rgb(221, 147, 35);
+}
+
+
+#career > section>#career-timeline-container > #jyothi-box{
+    background-color: rgb(221, 35, 116);
+}
+#career > section>#career-timeline-container > #sahrdaya-box{
+    background-color: rgb(35, 221, 212);
+}
+#career > section>#career-title{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+#career{
+    background-color: rgb(73, 69, 69);
+}
+
+
+.item-container {
+    border: 1px solid red;
+    width: 200px;
+    margin: auto;
+    position: relative;
+}
+.item-container.left {
+    right: 200px;
+}
+.item-container.right {
+    left: 200px;
+}
