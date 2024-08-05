@@ -1,5 +1,9 @@
 import './App.css';
+import Contact from './Contact';
 import Home from './Home';
+
+
+
 
 function App() {
   return (
@@ -7,6 +11,8 @@ function App() {
       <div id='app-container'>
         
         <Home/>
+        <Contact/>
+
       </div>
 
     </div>

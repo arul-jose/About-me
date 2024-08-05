@@ -1,0 +1,48 @@
+#contact-container{
+    background-color: black;
+    color: white;
+    padding: 35px;
+}
+#contact-container > section > #contact{
+  text-align: left;
+  font-size: 35px;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+#contact-container > section > #contactDetails{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+
+}
+#contact-container > section > #contactDetails > #resume-container{
+    width: 70%;
+    text-align: left;
+}
+#contact-container > section > #contactDetails > #resume-container >div{
+   padding-top: 20px;
+ }
+#contact-container > section > #contactDetails > #resume-container >div> button{
+   width: 200px;
+   height: 45px;
+   color: black;
+   font-weight: bold;
+   font-size: 18px;
+
+}
+#contact-container > section > #contactDetails > #details-container{
+    width: 30%;
+    text-align: left;
+    
+}
+#contact-container > section > #contactDetails > #details-container >div {
+    padding-top: 15px;
+    font-size: 20px;
+    
+    
+}
+#contact-container > section > #contactDetails > #details-container >div > span {
+    margin-right: 15px;
+    font-size: 25px;
+}

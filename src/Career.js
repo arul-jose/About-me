@@ -1,8 +1,8 @@
-import './Skills.css';
+import './Career.css';
 
 import React from 'react'
 
-function Skills() {
+function Career() {
   return (
     <div>
       
@@ -10,4 +10,4 @@ function Skills() {
   )
 }
 
-export default Skills
+export default Career
