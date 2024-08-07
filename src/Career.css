@@ -1,33 +1,176 @@
-#career > section>#career-timeline-container > #qspider-box{
-    background-color: rgb(221, 147, 35);
-}
 
-
-#career > section>#career-timeline-container > #jyothi-box{
-    background-color: rgb(221, 35, 116);
-}
-#career > section>#career-timeline-container > #sahrdaya-box{
-    background-color: rgb(35, 221, 212);
-}
 #career > section>#career-title{
-    padding: 20px;
+    padding: 25px;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
+    padding-right: 1640px;
 }
 #career{
-    background-color: rgb(73, 69, 69);
+    background-color: rgb(245, 239, 239);
 }
 
-
-.item-container {
-    border: 1px solid red;
-    width: 200px;
-    margin: auto;
+.timeline {
     position: relative;
 }
-.item-container.left {
-    right: 200px;
+
+.item-container{
+    padding: 10px 40px;
+    position: relative;
+    width: 40%;
 }
-.item-container.right {
-    left: 200px;
+.left::before{
+        content: " ";
+        position: absolute;
+        top: 22px;
+        right: 30px;
+        border: medium solid rgb(14, 65, 231);
+        border-width: 10px 0 10px 10px;
+        border-color: transparent transparent transparent rgb(49, 18, 228);
 }
+.content{
+    padding: 20px 30px;
+    background-color: aqua;
+    position: relative;
+    border-radius: 8px;
+}
+.content-item-box{
+    padding: 5px;
+}
+.item-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -12px;
+    background-color: rgb(155, 20, 20);
+    top: 15px;
+    /* border-radius: 50%; */
+   
+}
+.right {
+    left: 50%;
+}
+.left{
+    left: 4%;
+}
+
+.right::before {
+    content: " ";
+    position: absolute;
+    top: 22px;
+    left: 30px;
+    border: medium solid rgb(172, 24, 24);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(155, 7, 7) transparent transparent;
+}
+.right::after {
+    left: -13px;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: rgb(216, 38, 38);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    
+}
+
+
+
+
+/* The actual timeline (the vertical ruler) */
+/* .timeline::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    background-color: rgb(206, 11, 11);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+} */
+
+/* Container around content */
+/* .item-container {
+    padding: 50px 0px;
+    position: relative;
+    background-color: inherit;
+    width:50%;
+    border-radius: 8px;
+    font-size: 20px;
+    
+   
+    
+    
+} */
+
+/* The circles on the timeline */
+/* .item-container::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -10px;
+    background-color:  rgb(206, 11, 11);
+    top: 15px;
+    /* border-radius: 50%; */
+    /* z-index: 1;
+} */ 
+/* Place the container to the left */
+/* .left {
+    left: 0;
+    background-color: rgb(7, 7, 7);
+    color: white;
+    text-align: left;
+   
+    
+} */
+
+/* Place the container to the right */
+/* .right {
+    left: 50%;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: right;
+    
+}
+
+/* Add arrows to the left container (pointing right) */
+/* .left::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    right: 30px;
+    border: medium solid rgb(14, 65, 231);
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent rgb(49, 18, 228);
+} */ 
+
+/* Add arrows to the right container (pointing left) */
+/* .right::before {
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 0;
+    z-index: 1;
+    left: 30px;
+    border: medium solid rgb(33, 21, 190);
+    border-width: 10px 10px 10px 0;
+    border-color: transparent rgb(46, 34, 216) transparent transparent;
+}
+/* Fix the circle for containers on the right side */
+/* .right::after {
+    left: -14px;
+} */ 
+
+
+/* .footer{
+    height: 100px;
+
+} */
