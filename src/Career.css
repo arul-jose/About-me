@@ -1,40 +1,48 @@
 
-#career > section>#career-title{
-    padding: 25px;
-    font-weight: bold;
-    font-size: 35px;
-    padding-right: 1640px;
+.heading > div{
+   font-size: 35px;
+   padding: 30px;
+   text-align: left;
+   padding-left: 70px;
+   font-weight: bold;
+    
 }
+
 #career{
     background-color: rgb(245, 239, 239);
 }
 
 .timeline {
     position: relative;
+    
 }
 
 .item-container{
     padding: 10px 40px;
     position: relative;
     width: 40%;
+    font-size: 20px;
 }
 .left::before{
         content: " ";
         position: absolute;
         top: 22px;
         right: 30px;
-        border: medium solid rgb(14, 65, 231);
+        border: medium solid rgb(218, 39, 39);
         border-width: 10px 0 10px 10px;
-        border-color: transparent transparent transparent rgb(49, 18, 228);
+        border-color: transparent transparent transparent rgb(218, 39, 39);
 }
 .content{
     padding: 20px 30px;
-    background-color: aqua;
+    background-color: black;
     position: relative;
     border-radius: 8px;
+    color: white;
+    border: solid rgb(218, 39, 39)4px;
 }
 .content-item-box{
     padding: 5px;
+    
 }
 .item-container::after {
     content: '';
@@ -42,7 +50,7 @@
     width: 25px;
     height: 25px;
     right: -12px;
-    background-color: rgb(155, 20, 20);
+    background-color: rgb(10, 10, 10);
     top: 15px;
     /* border-radius: 50%; */
    
@@ -59,23 +67,32 @@
     position: absolute;
     top: 22px;
     left: 30px;
-    border: medium solid rgb(172, 24, 24);
+    border: medium solid rgb(218, 39, 39);
     border-width: 10px 10px 10px 0;
-    border-color: transparent rgb(155, 7, 7) transparent transparent;
+    border-color: transparent rgb(218, 39, 39) transparent transparent;
 }
 .right::after {
-    left: -13px;
+    left: -10px;
 }
 .timeline::after {
     content: '';
     position: absolute;
-    width: 2px;
-    background-color: rgb(216, 38, 38);
+    width: 4px;
+    background-color: rgb(12, 11, 11);
     top: 0;
     bottom: 0;
     left: 50%;
     
 }
+.footer{
+    padding: 20px;
+
+}
+.content-items{
+    padding: 8px;
+
+}
+
 
 
 

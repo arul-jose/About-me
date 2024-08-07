@@ -24,3 +24,30 @@ export const career = {
         sahrdaya: ["SAHRDAYA COLLEGE OF ENGINEERING AND TECHNOLOGY,KERALA", "", "B-tech", "cgpa : 6.91"]
     }
 };
+export const skillData = {
+    order: ["html", "css", "java","sql","javascript"],
+    data :{
+        html:{
+            title: "HTML",
+            progress: 50
+        },
+        css:{
+            title: "CSS",
+            progress: 50
+        },
+        java:{
+            title: "Java",
+            progress: 50
+        },
+        sql:{
+            title: "SQL",
+            progress: 50
+        },
+        javascript:{
+            title: "Javascript",
+            progress: 50
+        }
+        
+    }
+}
+      

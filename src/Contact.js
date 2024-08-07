@@ -20,7 +20,7 @@ function Contact() {
         <div id='contactDetails'>
           <div id='resume-container'>
             <div
-            ><button>Download CV</button></div>
+            ><button>Download CV <a href="../public/ResumeTN.pdf" download></a></button></div>
           </div>
 
           <div id='details-container'>

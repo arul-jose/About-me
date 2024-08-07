@@ -1,4 +1,108 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); */
+#skills-page >header>span {
+    font-size: 35px;
+    font-weight: bold;
+}
+#skills-page{
+    background-color: rgb(245, 239, 239);
+}
+/* .item-scale{
+    padding: 20px;
+    background-color: red;
+    width: 60%;
+    margin: auto;
+}
+.itembar-base{
+    margin: auto;
+    background-color: gray;
+    height: 10px;
+    width: 90%;
+}
+.itembar-progress{
+    background-color: black;
+    width: 0%;
+    height: 10px;
+     
+    transition: 2s;
+
+} */
+
+#skill-wrapper{
+    
+}
+ #skill-container{
+    
+    margin: auto;
+   
+ }
+ .title-container{
+    background-color: rgb(113, 64, 64);
+ }
+ .progressBar-container{
+    background-color: red;
+    height: 40px;
+ }
+ .progressBar-base{
+    background-color: grey;
+    height: 10px;
+    margin: auto;
+    width: 80%;
+ }
+ .progressBar{
+    background-color: black;
+    height: 10px;
+    
+    width: 60%;
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .skill-section{
     background-color: #131416;
     justify-content: center;
@@ -124,4 +228,4 @@
     100%{
         opacity: 1;
     }
-}
+} */
