@@ -29,23 +29,23 @@ export const skillData = {
     data :{
         html:{
             title: "HTML",
-            progress: 50
+            progress: "90%"
         },
         css:{
             title: "CSS",
-            progress: 50
+            progress: "90%"
         },
         java:{
             title: "Java",
-            progress: 50
+            progress: "50%"
         },
         sql:{
             title: "SQL",
-            progress: 50
+            progress: "80%"
         },
         javascript:{
             title: "Javascript",
-            progress: 50
+            progress: "40%"
         }
         
     }

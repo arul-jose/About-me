@@ -9,7 +9,7 @@ function Skills() {
   return (
     <div id="skills-page">
       <header>
-        <span>{navIcons.label[1]}</span>
+        <div>{navIcons.label[1]}</div>
       </header>
       <div id='skill-wrapper'>
         <div id='skill-container'>
@@ -19,66 +19,74 @@ function Skills() {
               <div id='skill-container-each'>
                 <div className='title-container'>
                 {skillItemObject.title}
+                
+                </div>
+                <div className='percentage'>
+                {skillItemObject.progress}
                 </div>
                 <div  className='progressBar-container'>
                   <div className='progressBar-base'>
-                    <div className='progressBar'></div>
+                    <div className='progressBar'>    
+                                       
+          
+                    </div>
+                    
                   </div>
-                {skillItemObject.progress}
+                {/* {skillItemObject.progress} */}
                 </div>
+                {/* <div className='percentage'>
+                {skillItemObject.progress}
+                </div> */}
               </div>
               
             )
             
           })}
-          {/* {skillData.order.map((skillitem, ind) => {
-            const skillItemArray = skillData.data[skillitem];
-            //console.log(skillItemArray);
-            return (
-             <div id='skill-container-each'>
-              <div className='title-container'>
-                <div className='title-text'>
-                  {skillItemArray.map((item, index) => {
-                    return (
-                      <div>
-                        {item}
-                      </div>
-                    )
-                  })}
-                </div>
-                </div>
-
-                <div className='progressBar-container'>
-                 
-                  <div className='progressBar-base'>
-                    <div className='progressBar' >
-
-                    </div>
-
-                  </div>
-                </div>
-              </div>
-            )
-          })} */}
-
-
-          {/* <div className='skill-item-container'>
-            <div className='skill-title'>JAVA</div>
-            <div className='item-scale'>
-              <div className='itembar-base'>
-                <div className='itembar-progress' style={{
-                  width: `${data[html].progrs}70%`
-                }
-                }>
-
-                </div>
-
-              </div>
-
-            </div>
-          </div> */}
+          
         </div>
       </div>
+
+
+{/* //-------------------- */}
+      {/* <div class="container">
+        <div class="skill-box">
+            <span class="title">HTML</span>
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">CSS</span>
+            <div class="skill-bar">
+                <span class="skill-per css">
+                    <span class="tooltip">70%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">JavaScript</span>
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">50%</span>
+                </span>
+            </div>
+        </div>
+        <div class="skill-box">
+            <span class="title">NodeJS</span>
+            <div class="skill-bar">
+                <span class="skill-per nodejs">
+                    <span class="tooltip">30%</span>
+                </span>
+            </div>
+        </div>
+    </div> */}
+{/* --------------------------------------------------- */}
+
+
+
+
 
     </div>
   )
@@ -108,54 +116,3 @@ export default Skills
 
 
 
-{/* <section className='skill-section'>
-        <div class="container">
-          
-          <section>
-            <div class="heading">Skills</div>
-          </section>
-
-          <div class="horizontal-bars">
-            <div class="bar">
-              <div class="info">
-                <span>HTML</span>
-              </div>
-              <div class="progress-line html">
-                <span></span>
-              </div>
-            </div>
-            <div class="bar">
-              <div class="info">
-                <span>CSS</span>
-              </div>
-              <div class="progress-line css">
-                <span></span>
-              </div>
-            </div>
-            <div class="bar">
-              <div class="info">
-                <span>SQL</span>
-              </div>
-              <div class="progress-line sql">
-                <span></span>
-              </div>
-            </div>
-            <div class="bar">
-              <div class="info">
-                <span>Java</span>
-              </div>
-              <div class="progress-line java">
-                <span></span>
-              </div>
-            </div>
-            <div class="bar">
-              <div class="info">
-                <span>Javascript</span>
-              </div>
-              <div class="progress-line javascript">
-                <span></span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
