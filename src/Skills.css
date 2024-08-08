@@ -1,4 +1,4 @@
-#skills-page >header>div {
+#skills >header>div {
     font-size: 35px;
     font-weight: bold;
     padding: 10px;
@@ -6,7 +6,7 @@
 
     
 }
-#skills-page{
+#skills{
     background-color: rgb(245, 239, 239);
 }
 /* .item-scale{
@@ -34,13 +34,14 @@
     padding: 10px;
     background-color:  rgb(245, 239, 239);
     padding-bottom: 50px;
+    border-bottom: 1px solid rgb(216, 212, 212);
 }
  #skill-container{
-    padding: 10px;
+    padding: 10px 10%;
     background-color: black;
     margin: auto;
     border-radius: 10px;
-    width: 80%;
+    width: 70%;
     box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
    
  }
@@ -50,10 +51,11 @@
  }
  .title-container{
     background-color: black;
-    padding-right: 600px;
+    text-align: left;
     font-size: 20px;
     font-weight: bold;
     color: white;
+    /* padding-left: 150px; */
  }
 
  .progressBar-container{
@@ -67,14 +69,14 @@
     background-color: rgb(48, 45, 45);
     height: 12px;
     margin: auto;
-    width: 70%;
+   
     border-radius: 5px;
  }
  .progressBar{
     background-color:rgb(218, 39, 39) ;
     height: 12px;
     border-radius: 5px;
-    width: 60%;
+    
     animation: progress 1500ms ease-in 1;
  }
                    
@@ -83,7 +85,8 @@
     background-color: white;
     height: 20px;
     width: 35px;
-    margin-left: 550px;
+    position: relative;
+    left: 0px;
     border-radius: 3px;
     margin-bottom: 10px;
     animation: progress 1500ms ease-in 1;

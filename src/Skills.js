@@ -1,53 +1,53 @@
+import { BiLeftArrow } from 'react-icons/bi';
 import './Skills.css';
 import { navIcons } from './constants';
-import React, { useState } from 'react';
 import { skillData } from './constants';
-import { WiDayCloudy } from 'react-icons/wi';
+
 
 function Skills() {
 
   return (
-    <div id="skills-page">
+    <div id="skills">
       <header>
         <div>{navIcons.label[1]}</div>
       </header>
       <div id='skill-wrapper'>
         <div id='skill-container'>
-          {skillData.order.map((skillItem,ind) =>{
-            const skillItemObject = skillData.data[skillItem];
-            return(
+          {skillData.order.map((skillItem, ind) => {
+            const { title, progress } = skillData.data[skillItem];
+            const progressStyle = {
+              width: progress
+            };
+            const progressStylePercentage = {
+              left: progress
+            };
+            
+            return (
               <div id='skill-container-each'>
                 <div className='title-container'>
-                {skillItemObject.title}
-                
+                  {title}
                 </div>
-                <div className='percentage'>
-                {skillItemObject.progress}
+                <div className='percentage' style={progressStylePercentage}>
+                  {progress}
                 </div>
-                <div  className='progressBar-container'>
+                <div className='progressBar-container'>
                   <div className='progressBar-base'>
-                    <div className='progressBar'>    
-                                       
-          
+                    <div className='progressBar' style={progressStyle}>
+                      <div></div>
                     </div>
-                    
                   </div>
-                {/* {skillItemObject.progress} */}
                 </div>
-                {/* <div className='percentage'>
-                {skillItemObject.progress}
-                </div> */}
               </div>
-              
+
             )
-            
+
           })}
-          
+
         </div>
       </div>
 
 
-{/* //-------------------- */}
+      {/* //-------------------- */}
       {/* <div class="container">
         <div class="skill-box">
             <span class="title">HTML</span>
@@ -82,7 +82,7 @@ function Skills() {
             </div>
         </div>
     </div> */}
-{/* --------------------------------------------------- */}
+      {/* --------------------------------------------------- */}
 
 
 
@@ -92,7 +92,7 @@ function Skills() {
   )
 }
 
-export default Skills
+export default Skills;
 
 
 
