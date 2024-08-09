@@ -32,7 +32,7 @@
 
 }
 #contact-container > section > #contactDetails > #details-container{
-    width: 30%;
+    /* width: 30%; */
     text-align: left;
     
 }
@@ -52,3 +52,59 @@ a{
 }
 
 
+@media only screen and (max-width: 600px) {
+   
+    #contact-container{
+        background-color: black;
+        color: white;
+        /* padding: 35px; */
+    }
+    #contact-container > section > #contact{
+        text-align: left;
+        font-size: 25px;
+        font-weight: bold;
+        /* padding-left: 15px; */
+      }
+      
+#contact-container > section > #contactDetails{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+   
+
+}
+#contact-container > section > #contactDetails > #resume-container{
+    /* width: 40%; */
+    text-align: left;
+    padding-bottom: 10px;
+}
+/* #contact-container > section > #contactDetails > #resume-container >div{
+   padding-top: 20px;
+ } */
+#contact-container > section > #contactDetails > #resume-container >div> button{
+   width: 90px;
+   height: 30px;
+   color: black;
+   font-weight: bold;
+   font-size: 10px;
+
+}
+/* #contact-container > section > #contactDetails > #details-container{
+     width: 30%; 
+    text-align: left;
+    
+} */
+#contact-container > section > #contactDetails > #details-container >div {
+    padding-top: 8px;
+    font-size: 10px;
+}
+
+/* #contact-container > section > #contactDetails > #details-container >div > span {
+    margin-right: 15px;
+    font-size: 25px;
+} */
+/* a{
+    color: white;
+    text-decoration: none;
+} */
+}

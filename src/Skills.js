@@ -1,4 +1,4 @@
-import { BiLeftArrow } from 'react-icons/bi';
+
 import './Skills.css';
 import { navIcons } from './constants';
 import { skillData } from './constants';

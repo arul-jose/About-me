@@ -6,14 +6,8 @@ import { navIcons, bio } from './constants';
 function Home() {
     return (
         <div id='home'>
-
+            
             <header>
-                
-                {/* {navIcons.map((iconName,iconIndex) => {
-                    return (
-                        <div key={"icon-"+iconIndex}>{iconName}</div>
-                    )
-                })} */}
                 <div id="nav-bar">
                 {navIcons.label.map((name, ind) => {
                     return (
@@ -32,6 +26,9 @@ function Home() {
                         <div id="bio-role">{bio.role}</div>                        
                     </div>
             </section>
+
+            
+            
 
         </div>
     )

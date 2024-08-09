@@ -19,9 +19,9 @@ export const contactDetails = {
 export const career = {
     order: ["qspider", "jyothi", "sahrdaya"],
     data: {
-        qspider: ["Q-SPIDERS Velachery", "Nov 2023 - Present", "Full Stack Development", ""],
-        jyothi: ["JYOTHI ENGINEERING COLLEGE,KERALA ", "Aug 2019-Sep 2021", "M-Tech", "cgpa : 8.01"],
-        sahrdaya: ["SAHRDAYA COLLEGE OF ENGINEERING AND TECHNOLOGY,KERALA", "", "B-tech", "cgpa : 6.91"]
+        qspider: ["Q-SPIDERS(Velachery)", "Nov 2023 - Present", "Full Stack Development", ""],
+        jyothi: ["JYOTHI ENGINEERING COLLEGE(Kerala) ", "Aug 2019-Sep 2021", "M-Tech", "cgpa : 8.01"],
+        sahrdaya: ["SAHRDAYA COLLEGE OF ENGINEERING AND TECHNOLOGY(Kerala)", "", "B-tech", "cgpa : 6.91"]
     }
 };
 export const skillData = {

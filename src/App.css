@@ -6,12 +6,13 @@ html {
 
 body {
   margin: 0px;    
- 
+ background-color: aquamarine;
   font-family: 'Josefin Sans', cursive;
 }
 
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
