@@ -14,7 +14,7 @@ function Skills() {
       <div id='skill-wrapper'>
         <div id='skill-container'>
           {skillData.order.map((skillItem, ind) => {
-            const { title, progress } = skillData.data[skillItem];
+            const { title, progress,scale } = skillData.data[skillItem];
             const progressStyle = {
               width: progress
             };
@@ -28,7 +28,8 @@ function Skills() {
                   {title}
                 </div>
                 <div className='percentage' style={progressStylePercentage}>
-                  {progress}
+                  {/* {progress} */}
+                  {scale}
                 </div>
                 <div className='progressBar-container'>
                   <div className='progressBar-base'>

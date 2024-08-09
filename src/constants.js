@@ -14,7 +14,7 @@ export const contactDetails = {
     mailId: "arulallan333@gmail.com",
     phoneNo: "9562122964",
     gitLink: "https://github.com/arul-jose/",
-    linkedin: "https://github.com/arul-jose/"
+    linkedin: "https://in.linkedin.com/"
 };
 export const career = {
     order: ["qspider", "jyothi", "sahrdaya"],
@@ -29,23 +29,28 @@ export const skillData = {
     data :{
         html:{
             title: "HTML",
-            progress: "90%"
+            progress: "80%",
+            scale:"8"
         },
         css:{
             title: "CSS",
-            progress: "90%"
+            progress: "80%",
+            scale:"8"
         },
         java:{
             title: "Java",
-            progress: "50%"
+            progress: "55%",
+            scale:"5.5"
         },
         sql:{
             title: "SQL",
-            progress: "80%"
+            progress: "70%",
+            scale:"7"
         },
         javascript:{
             title: "Javascript",
-            progress: "40%"
+            progress: "40%",
+            scale:"4"
         }
         
     }
