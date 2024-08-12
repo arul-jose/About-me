@@ -1,85 +1,68 @@
-#skills >header>div {
+#skills>header>div {
     font-size: 35px;
     font-weight: bold;
     padding: 10px;
     padding-top: 30px;
-
-    
 }
-#skills{
+
+#skills {
     background-color: rgb(245, 239, 239);
 }
-/* .item-scale{
-    padding: 20px;
-    background-color: red;
-    width: 60%;
-    margin: auto;
-}
-.itembar-base{
-    margin: auto;
-    background-color: gray;
-    height: 10px;
-    width: 90%;
-}
-.itembar-progress{
-    background-color: black;
-    width: 0%;
-    height: 10px;
-     
-    transition: 2s;
 
-} */
-
-#skill-wrapper{
+#skill-wrapper {
     padding: 10px;
-    background-color:  rgb(245, 239, 239);
+    background-color: rgb(245, 239, 239);
     padding-bottom: 50px;
     border-bottom: 1px solid rgb(216, 212, 212);
 }
- #skill-container{
+
+#skill-container {
     padding: 10px 10%;
     background-color: black;
     margin: auto;
     border-radius: 10px;
     width: 70%;
-    box-shadow: 4px 4px 8px rgba(0,0,0,0.6);
-   
- }
- #skill-container-each{
-    padding-bottom: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
 
- }
- .title-container{
+#skill-container-each {
+    padding-bottom: 20px;
+}
+
+.title-container {
     background-color: black;
     text-align: left;
     font-size: 20px;
     font-weight: bold;
     color: white;
     /* padding-left: 150px; */
- }
+    margin-top: 10px;
+}
 
- .progressBar-container{
+.progressBar-container {
     background-color: black;
     height: 20px;
     color: white;
     font-weight: 800;
-    
- }
- .progressBar-base{
+
+}
+
+.progressBar-base {
     background-color: rgb(48, 45, 45);
     height: 12px;
     margin: auto;
     border-radius: 5px;
- }
- .progressBar{
-    background-color:rgb(218, 39, 39) ;
+}
+
+.progressBar {
+    background-color: rgb(218, 39, 39);
     height: 12px;
     border-radius: 5px;
-    
+
     animation: progress 1500ms ease-in 1;
- }
-                   
- .percentage{
+}
+
+.percentage {
     color: black;
     background-color: white;
     height: 20px;
@@ -89,14 +72,16 @@
     border-radius: 3px;
     margin-bottom: 10px;
     animation: progress 1500ms ease-in 1;
-   padding-top: 4px;
- }
- @keyframes progress {
-    0%{
+    padding-top: 4px;
+}
+
+@keyframes progress {
+    0% {
         width: 0;
         /* opacity: 1; */
     }
-    100%{
+
+    100% {
         /* opacity: 1; */
     }
 }
@@ -104,11 +89,17 @@
 
 
 
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {}
 
 
 
 
- 
+
+
+
+
+
 
 
 

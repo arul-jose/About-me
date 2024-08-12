@@ -28,9 +28,7 @@ function Career() {
                         
                           <div className='content-items'>
                             {itemDescription}
-                          </div>
-
-                  
+                          </div>                 
                       )
                     })}
                   </div>
@@ -46,4 +44,4 @@ function Career() {
   )
 }
 
-export default Career
+export default Career;
