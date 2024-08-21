@@ -23,12 +23,13 @@
 #contact-container > section > #contactDetails > #resume-container >div{
    padding-top: 20px;
  }
-#contact-container > section > #contactDetails > #resume-container >div> button{
+#contact-container > section > #contactDetails > #resume-container >div> a > button{
    width: 200px;
    height: 45px;
    color: black;
    font-weight: bold;
    font-size: 18px;
+   cursor: pointer;
 
 }
 #contact-container > section > #contactDetails > #details-container{

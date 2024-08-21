@@ -19,8 +19,9 @@ function Contact() {
       <section>
         <div id='contactDetails'>
           <div id='resume-container'>
-            <div
-            ><button>Download CV</button></div>
+            <div>
+            <a href="Resume.pdf" download="Arul's Resume"><button>Download Resume</button></a>
+            </div>
           </div>
 
           <div id='details-container'>
